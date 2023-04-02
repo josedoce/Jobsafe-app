@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Jobsafe"
         mc:Ignorable="d"
-        Title="Pesquisa" Height="450" Width="400">
+        Title="Pesquisar" Height="450" Width="400">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
@@ -23,7 +23,7 @@
         </Grid.RowDefinitions>
 
         <!-- Coloque aqui o seu formulário dentro da janela modal -->
-        <TextBlock x:Name="Subtitle" Grid.Row="0" Text="Um grande titulo" TextAlignment="Center" Padding="0,6,0,0" TextWrapping="Wrap" />
+        
         <Grid Grid.Row="1">
             <Grid.RowDefinitions>
                 <RowDefinition Height="*"/>

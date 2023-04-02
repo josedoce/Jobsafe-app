@@ -33,6 +33,7 @@ namespace Jobsafe
         public MainWindow()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
             vagaService = new VagaService();
             ListaVagas.ItemsSource = vagaService.Vagas();
         }
@@ -169,6 +170,7 @@ namespace Jobsafe
             });
 
             searchModal.Owner = this;
+            searchModal.WindowStartupLocation = WindowStartupLocation.CenterOwner;
             searchModal.ShowDialog();
         }
     }
